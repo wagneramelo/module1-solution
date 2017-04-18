@@ -1,7 +1,7 @@
 
 angular.module('LunchCheck', [])
 .controller('LunchCheckController', ['$scope', function($scope){
-	$scope.dishes = '';
+	$scope.dishes = undefined;
 	var qtyDishes = [];
 	$scope.msg = '';
 	
